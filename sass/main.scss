@@ -72,6 +72,7 @@ $check-color: #99E2D0;
         width: 100%;
         display: flex;
         flex-direction: row;
+        margin-bottom: 15px;
     }
     &__text1:hover + .check--anim {
         animation: checkAnim 400ms alternate both;
@@ -226,7 +227,7 @@ i {
         flex-direction: row;
         justify-content: space-between;
         background-color: white;
-        margin-bottom: 15px;
+        
         border-radius: 20px;
         @include shadow
     }
